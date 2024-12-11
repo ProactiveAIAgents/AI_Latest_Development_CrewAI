@@ -1,59 +1,60 @@
-<<<<<<< HEAD
-# AI_Latest_Development_CrewAI
-An AI research crew built with CrewAI framework to analyze and report on the latest developments in AI LLMs
-=======
-# AiLatestDevelopment Crew
+# AI Latest Development CrewAI
 
-Welcome to the AiLatestDevelopment Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+## Description
+A comprehensive research project focused on exploring and documenting the latest developments in AI technology, with particular emphasis on Large Language Models (LLMs) and their applications. This project utilizes CrewAI for orchestrating AI agents to gather, analyze, and synthesize information about cutting-edge AI advancements.
+
+## Features
+- Automated AI research gathering and analysis
+- Structured documentation of AI developments
+- Integration with multiple AI data sources
+- Comprehensive report generation
+- Version-controlled research findings
+- Collaborative AI agent interactions
+
+## Technologies Used
+- Python
+- CrewAI Framework
+- LangChain
+- Markdown
+- Git/GitHub
+- Python-dotenv
+
+## Skills Learned
+- AI agent orchestration and management
+- Research automation techniques
+- Technical documentation best practices
+- Version control for research projects
+- Data synthesis and analysis
+- Collaborative AI systems development
+
+## Tools Used
+- Visual Studio Code
+- Git and GitHub
+- CrewAI framework
+- Markdown documentation
+- Python libraries for AI research
+- Environment management tools
+
+## Project Implementation
+
+### 1. Project Setup
+![Project Setup](screenshots/setup.png)
+Project structure and dependency configuration using requirements.txt and environment variables.
+
+### 2. Core Implementation
+![Main Implementation](screenshots/implementation.png)
+Details of the AI research gathering and analysis system.
+
+### 3. Documentation System
+![Documentation System](screenshots/documentation.png)
+How the project organizes and maintains research findings.
+
+### 4. Research Output
+![Research Results](screenshots/results.png)
+Example of generated research reports and findings.
 
 ## Installation
-
-Ensure you have Python >=3.10 <=3.13 installed on your system. This project uses [UV](https://docs.astral.sh/uv/) for dependency management and package handling, offering a seamless setup and execution experience.
-
-First, if you haven't already, install uv:
-
-```bash
-pip install uv
-```
-
-Next, navigate to your project directory and install the dependencies:
-
-(Optional) Lock the dependencies and install them by using the CLI command:
-```bash
-crewai install
-```
-### Customizing
-
-**Add your `OPENAI_API_KEY` into the `.env` file**
-
-- Modify `src/ai_latest_development/config/agents.yaml` to define your agents
-- Modify `src/ai_latest_development/config/tasks.yaml` to define your tasks
-- Modify `src/ai_latest_development/crew.py` to add your own logic, tools and specific args
-- Modify `src/ai_latest_development/main.py` to add custom inputs for your agents and tasks
-
-## Running the Project
-
-To kickstart your crew of AI agents and begin task execution, run this from the root folder of your project:
-
-```bash
-$ crewai run
-```
-
-This command initializes the ai-latest-development Crew, assembling the agents and assigning them tasks as defined in your configuration.
-
-This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folder.
-
-## Understanding Your Crew
-
-The ai-latest-development Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
-
-## Support
-
-For support, questions, or feedback regarding the AiLatestDevelopment Crew or crewAI.
-- Visit our [documentation](https://docs.crewai.com)
-- Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
-- [Join our Discord](https://discord.com/invite/X4JWnZnxPb)
-- [Chat with our docs](https://chatg.pt/DWjSBZn)
-
-Let's create wonders together with the power and simplicity of crewAI.
->>>>>>> 479f781 (Initial project structure and core files)
+1. Clone the repository
+2. Install dependencies: `pip install -r requirements.txt`
+3. Configure environment variables
+4. Run the research system: `python main.py`
