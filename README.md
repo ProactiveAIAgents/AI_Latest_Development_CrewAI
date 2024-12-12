@@ -38,19 +38,20 @@ A comprehensive research project focused on exploring and documenting the latest
 ## Project Implementation
 
 ### 1. Project Setup
-![Project Setup](screenshots/setup.png)
+![Project Setup](https://github.com/user-attachments/assets/9c1d6b3e-ccff-423d-a2b0-7e4c500c644a)
 Project structure and dependency configuration using requirements.txt and environment variables.
 
 ### 2. Core Implementation
-![Main Implementation](screenshots/implementation.png)
+![Main Implementation](https://github.com/user-attachments/assets/7e528a22-c78e-45e3-a75f-f3dfbbe1b3ad)
 Details of the AI research gathering and analysis system.
 
 ### 3. Documentation System
-![Documentation System](screenshots/documentation.png)
+![Research Results1 png ](https://github.com/user-attachments/assets/0eec8765-3cab-475b-a249-71776deb0bd4)
 How the project organizes and maintains research findings.
 
 ### 4. Research Output
-![Research Results](screenshots/results.png)
+![Research Results2 png ](https://github.com/user-attachments/assets/99a082e1-5ad9-4974-a282-3c58f42b570c)
+![Documentatin System pmg](https://github.com/user-attachments/assets/272561cd-25ec-43b9-8453-6a06f100c474)
 Example of generated research reports and findings.
 
 ## Installation
